@@ -1,31 +1,31 @@
 {
   "title": "Diffusion-LLM-Modelle",
-  "subtitle": "30 Sekunden kompakt erklärt",
+  "subtitle": "30 Sekunden mit animierten Beispielen",
   "durationSeconds": 30,
   "fps": 30,
-  "outputName": "diffusion-llm-modelle-30s.mp4",
-  "style": "cinematic ai explainer",
-  "renderRequestId": "diffusion-llm-2026-06-06-1700",
+  "outputName": "diffusion-llm-modelle-animated-v2.mp4",
+  "style": "animated ai explainer v2",
+  "renderRequestId": "diffusion-llm-animated-v2-2026-06-06-1728",
   "scenes": [
     {
-      "title": "Was ist ein Diffusion-LLM?",
-      "text": "Ein Diffusion-LLM erzeugt Sprache nicht nur Wort für Wort, sondern verbessert einen verrauschten Entwurf Schritt für Schritt."
+      "title": "Vom Rauschen zur Antwort",
+      "text": "Statt nur Text einzublenden: Man sieht, wie verrauschte Token in eine verständliche Erklärung umgewandelt werden."
     },
     {
-      "title": "Der Kernprozess",
-      "text": "Das Modell startet mit Unsicherheit, plant grob und entfernt dann schrittweise Fehler, Rauschen und Widersprüche."
+      "title": "Denoising in Schritten",
+      "text": "Ein grober Entwurf wird über mehrere Zwischenstufen sauberer: Noise, Rohentwurf, Struktur und finale Fassung."
     },
     {
-      "title": "Warum ist das spannend?",
-      "text": "Dadurch kann es globale Struktur stärker berücksichtigen: erst Idee, dann Ordnung, dann präzise Formulierung."
+      "title": "Transformer vs. Diffusion",
+      "text": "Links wächst Text Token für Token. Rechts verbessert Diffusion den ganzen Entwurf parallel."
     },
     {
-      "title": "Unterschied zu klassischen LLMs",
-      "text": "Autoregressive Transformer schreiben meist Token für Token. Diffusion-Modelle arbeiten stärker über Revision und Verfeinerung."
+      "title": "Global denken statt nur fortsetzen",
+      "text": "Das Beispiel zeigt, wie lange Erklärungen erst geplant und danach abschnittsweise synchron verbessert werden."
     },
     {
-      "title": "Praktische Vision",
-      "text": "Für lange Texte, Code und multimodale Inhalte könnten solche Modelle stabilere Entwürfe mit besserer Nachbearbeitung liefern."
+      "title": "Der Revisionskreislauf",
+      "text": "Noise, Draft, Kritik und Finalfassung laufen als sichtbare Schleife: so wird die Kernidee greifbar."
     }
   ]
 }
