@@ -1,31 +1,91 @@
 {
-  "title": "Diffusion-LLM-Modelle",
-  "subtitle": "30 Sekunden kompakt erklärt",
-  "durationSeconds": 30,
-  "fps": 30,
-  "outputName": "diffusion-llm-modelle-30s.mp4",
-  "style": "cinematic ai explainer",
-  "renderRequestId": "diffusion-llm-2026-06-06-1700",
+  "title": "Transformer vs. Diffusion",
+  "subtitle": "2-Minuten-Erklärvideo mit animierten Beispielen",
+  "durationSeconds": 120,
+  "fps": 24,
+  "outputName": "transformer-vs-diffusion-2min.mp4",
+  "style": "animated technical explainer",
+  "renderRequestId": "transformer-diffusion-2min-animated-v1",
   "scenes": [
     {
-      "title": "Was ist ein Diffusion-LLM?",
-      "text": "Ein Diffusion-LLM erzeugt Sprache nicht nur Wort für Wort, sondern verbessert einen verrauschten Entwurf Schritt für Schritt."
+      "title": "Titel & Überblick",
+      "text": "Transformer verstehen Kontext mit Attention. Diffusion startet mit Rauschen und formt Schritt für Schritt ein Ergebnis."
     },
     {
-      "title": "Der Kernprozess",
-      "text": "Das Modell startet mit Unsicherheit, plant grob und entfernt dann schrittweise Fehler, Rauschen und Widersprüche."
+      "title": "Attention live",
+      "text": "Jedes Token schaut auf alle anderen Tokens. Die stärksten Kontextbeziehungen werden heller und dicker dargestellt."
     },
     {
-      "title": "Warum ist das spannend?",
-      "text": "Dadurch kann es globale Struktur stärker berücksichtigen: erst Idee, dann Ordnung, dann präzise Formulierung."
+      "title": "Multi-Head-Attention",
+      "text": "Mehrere Attention-Köpfe betrachten verschiedene Beziehungen gleichzeitig: Grammatik, Bedeutung und Reihenfolge."
     },
     {
-      "title": "Unterschied zu klassischen LLMs",
-      "text": "Autoregressive Transformer schreiben meist Token für Token. Diffusion-Modelle arbeiten stärker über Revision und Verfeinerung."
+      "title": "Encoder & Decoder",
+      "text": "Der Encoder verdichtet den Input. Der Decoder erzeugt daraus kontrolliert den nächsten Output."
     },
     {
-      "title": "Praktische Vision",
-      "text": "Für lange Texte, Code und multimodale Inhalte könnten solche Modelle stabilere Entwürfe mit besserer Nachbearbeitung liefern."
+      "title": "GPT-Beispiel",
+      "text": "Autoregressive Modelle wählen Token für Token: aus Wahrscheinlichkeiten entsteht ein Satz."
+    },
+    {
+      "title": "BERT-Beispiel",
+      "text": "Maskierte Sprachmodelle füllen Lücken, indem sie den linken und rechten Kontext gemeinsam auswerten."
+    },
+    {
+      "title": "Diffusion Vorwärtsprozess",
+      "text": "Ein klares Signal wird schrittweise verrauscht. So lernt das Modell, welche Störung entfernt werden muss."
+    },
+    {
+      "title": "Diffusion Rückwärtsprozess",
+      "text": "Aus reinem Rauschen entsteht über viele Denoising-Schritte wieder Struktur."
+    },
+    {
+      "title": "Time-Step-Logik",
+      "text": "Der Zeitindex t steuert, wie stark verrauscht oder wie weit rekonstruiert ein Zustand ist."
+    },
+    {
+      "title": "Denoising U-Net",
+      "text": "U-Nets komprimieren das Bild, verarbeiten es im Bottleneck und bauen Details über Skip-Connections wieder auf."
+    },
+    {
+      "title": "Cross-Attention",
+      "text": "Ein Textprompt lenkt die Bildentstehung: Wörter koppeln sich an Bildregionen."
+    },
+    {
+      "title": "Text zu Bild Pipeline",
+      "text": "Text-Encoder, U-Net und VAE arbeiten zusammen: Prompt rein, latentes Bild raus, Pixelbild fertig."
+    },
+    {
+      "title": "Denoising-Stufen",
+      "text": "Mehrere Zwischenbilder zeigen, wie aus Chaos erst grobe Formen und dann Details werden."
+    },
+    {
+      "title": "Aufgaben sortieren",
+      "text": "Text fortsetzen und Fragen beantworten passen meist zum Transformer. Bild, Audio und Inpainting passen zur Diffusion."
+    },
+    {
+      "title": "Use-Case-Matrix",
+      "text": "Transformer dominieren Sprache, Code und strukturierte Sequenzen. Diffusion glänzt bei hochwertigen generativen Medien."
+    },
+    {
+      "title": "Trade-off",
+      "text": "Transformer sind oft schneller bei Text. Diffusion braucht mehr Schritte, liefert aber starke visuelle Qualität."
+    },
+    {
+      "title": "Hybride Modelle",
+      "text": "Diffusion Transformer, kurz DiT, ersetzt Teile des U-Net durch Transformer-Blöcke."
+    },
+    {
+      "title": "Multimodaler Ausblick",
+      "text": "Neue Systeme kombinieren Text, Bild, Audio und Video in gemeinsamen generativen Pipelines."
+    },
+    {
+      "title": "Diffusion für Text",
+      "text": "Diffusion-LLMs könnten ganze Entwürfe parallel überarbeiten: erst grob, dann präzise."
+    },
+    {
+      "title": "Zusammenfassung",
+      "text": "Text und Code: Transformer. Bild, Audio, 3D: Diffusion. Hybridmodelle verbinden beide Welten."
     }
   ]
 }
