@@ -1,0 +1,30 @@
+{
+  "title": "Diffusion-LLM-Modelle",
+  "subtitle": "30 Sekunden kompakt erklärt",
+  "durationSeconds": 30,
+  "fps": 30,
+  "outputName": "diffusion-llm-modelle-30s.mp4",
+  "style": "cinematic ai explainer",
+  "scenes": [
+    {
+      "title": "Was ist ein Diffusion-LLM?",
+      "text": "Die Idee: Ein Modell erzeugt Sprache nicht nur Wort für Wort, sondern verfeinert einen verrauschten Entwurf schrittweise."
+    },
+    {
+      "title": "Der Kernprozess",
+      "text": "Statt sofort die finale Antwort zu schreiben, startet das System mit Unsicherheit und entfernt diese über mehrere Rechenschritte."
+    },
+    {
+      "title": "Warum ist das spannend?",
+      "text": "Diffusion kann globale Struktur besser planen: erst grober Inhalt, dann Details, Stil und Konsistenz."
+    },
+    {
+      "title": "Unterschied zum Transformer",
+      "text": "Klassische LLMs generieren meistens autoregressiv: Token nach Token. Diffusion denkt stärker in Revisionen."
+    },
+    {
+      "title": "Praktische Vision",
+      "text": "Für lange Texte, Code und Multimodalität könnten solche Modelle stabilere Entwürfe liefern — mit besserer Nachbearbeitung."
+    }
+  ]
+}
