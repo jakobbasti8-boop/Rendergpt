@@ -1,31 +1,35 @@
 {
-  "title": "Diffusion-LLM-Modelle",
-  "subtitle": "30 Sekunden kompakt erklärt",
-  "durationSeconds": 30,
+  "title": "6 LLM-Phänomene, die noch nicht vollständig erklärt sind",
+  "subtitle": "Was Entwickler messen können – aber noch nicht komplett verstehen",
+  "durationSeconds": 80,
   "fps": 30,
-  "outputName": "diffusion-llm-modelle-30s.mp4",
-  "style": "cinematic ai explainer",
-  "renderRequestId": "diffusion-llm-2026-06-06-1700",
+  "outputName": "llm-black-box-6-fakten-80s.mp4",
+  "style": "cinematic scientific explainer · dark neon",
+  "renderRequestId": "llm-black-box-6-fakten-2026-08-02",
   "scenes": [
     {
-      "title": "Was ist ein Diffusion-LLM?",
-      "text": "Ein Diffusion-LLM erzeugt Sprache nicht nur Wort für Wort, sondern verbessert einen verrauschten Entwurf Schritt für Schritt."
+      "title": "Die Black Box ist real",
+      "text": "Bei großen Sprachmodellen können wir Verhalten messen und einzelne Schaltkreise finden. Doch niemand besitzt eine vollständige, verständliche Erklärung für jede Antwort."
     },
     {
-      "title": "Der Kernprozess",
-      "text": "Das Modell startet mit Unsicherheit, plant grob und entfernt dann schrittweise Fehler, Rauschen und Widersprüche."
+      "title": "Lernen im Prompt",
+      "text": "Ein paar Beispiele im Kontext reichen oft, damit ein LLM eine neue Aufgabe löst – obwohl seine Gewichte unverändert bleiben. Der genaue Mechanismus ist weiter Forschungsgebiet."
     },
     {
-      "title": "Warum ist das spannend?",
-      "text": "Dadurch kann es globale Struktur stärker berücksichtigen: erst Idee, dann Ordnung, dann präzise Formulierung."
+      "title": "Ein Neuron, viele Bedeutungen",
+      "text": "Modelle speichern offenbar mehrere, teils völlig verschiedene Konzepte überlagert im selben Rechenraum. Das nennt man Superposition – und es macht das Innenleben schwer lesbar."
     },
     {
-      "title": "Unterschied zu klassischen LLMs",
-      "text": "Autoregressive Transformer schreiben meist Token für Token. Diffusion-Modelle arbeiten stärker über Revision und Verfeinerung."
+      "title": "Grokking: plötzliches Verstehen",
+      "text": "Manche Netze lernen erst Trainingsdaten auswendig. Lange danach springt ihre Fähigkeit zur Generalisierung plötzlich nach oben – warum dieser Umschlag genau entsteht, ist nicht abschließend geklärt."
     },
     {
-      "title": "Praktische Vision",
-      "text": "Für lange Texte, Code und multimodale Inhalte könnten solche Modelle stabilere Entwürfe mit besserer Nachbearbeitung liefern."
+      "title": "Echte Emergenz – oder Messillusion?",
+      "text": "Manche Fähigkeiten scheinen ab einer Modellgröße schlagartig aufzutauchen. Forschung zeigt aber: Der Sprung kann auch von der gewählten Bewertungsmetrik erzeugt oder verstärkt werden."
+    },
+    {
+      "title": "Kleine Worte, große Wirkung",
+      "text": "Winzige Änderungen im Prompt können Antworten massiv verändern. Welche internen Grenzen dabei kippen und warum, lässt sich bei großen Modellen bisher nur teilweise nachvollziehen."
     }
   ]
 }
